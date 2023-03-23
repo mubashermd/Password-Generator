@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: black;
+  }
+  
+  .main-container {
+    margin: 64px auto;
+    width: 550px;
+    height: 550px;
+    background: #1f2937;
+    padding-top: 115px;
+  }
+  
+  #hero-title {
+    width: 354px;
+    height: 80px;
+    margin-left: 52px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+  }
+  
+  #title-span {
+    display: block;
+    color: #4ADF86;
+  }
+  
+  #hero-para {
+    width: 372px;
+    height: 28px;
+    margin-left: 52px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+  }
+  
+  #generate-btn {
+    cursor: pointer;
+    padding: 9px 17px;
+    width: 191px;
+    height: 42px;
+    margin-left: 52px;
+    margin-top: 50px;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  
+  #label-container {
+    width: 446px;
+    border-top: 1px solid #2F3E53;
+    margin-top: 35px;
+    margin-left: 52px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .password-label {
+    background-color: #273549;
+    width: 180px;
+    height: 39px;
+    margin-top: 35px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #55F991;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 5px 9px 2px 10px;
+  }
